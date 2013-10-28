@@ -1,0 +1,8 @@
+PORTAGE_LIBC="glibc"
+
+CFLAGS_GENERIC="-O2 -pipe -g -ggdb"
+CXXFLAGS_GENERIC="-O2 -pipe -g -ggdb"
+
+FEATURES="sfperms collision-protect noinfo noman nodoc splitdebug"
+GENTOO_MIRRORS="${BASE_MIRROR}/target/community"
+
